@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">XmlTestApplication</string>
+    <string name="calender_image">XmlTestApplication</string>
+    <string name="season_text">SeasonTextView</string>
+    <string name="seasontextview">SeasonTextView</string>
+    <string name="first_quarter">First Quarter</string>
+    <string name="secondtextview">SeasonTextView</string>
+</resources>

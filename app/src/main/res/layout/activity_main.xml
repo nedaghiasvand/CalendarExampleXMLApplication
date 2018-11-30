@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#ffffff">
+
+            <LinearLayout
+                android:id="@+id/Seasons"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:id="@+id/FirstQuarter"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:paddingTop="10dp"
+                        android:id="@+id/FirstQuaterName"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/first_quarter"
+                            android:textColor="#ffcc0000"
+                            android:textSize="30sp"/>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@android:color/holo_red_dark"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/janivery"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="20dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.3"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:background="@color/colorbackgroundmonthname">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginRight="10dp"
+                                android:gravity="center"
+                                android:text="JAN"
+                                android:textColor="#ffffff"
+                                android:textSize="30sp"/>
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/imageView"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.1"
+                            android:contentDescription="@string/calender_image"
+                            android:scaleType="fitXY"
+                            android:adjustViewBounds="true"
+                            app:srcCompat="@drawable/janivery" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/Febriury"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.3"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:background="@color/colorbackgroundmonthname">>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginRight="10dp"
+                                android:gravity="center"
+                                android:text="FEB"
+                                android:textColor="#ffffff"
+                                android:textSize="30sp"/>
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/imageView2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.1"
+                            android:scaleType="fitXY"
+                            android:adjustViewBounds="true"
+                            app:srcCompat="@drawable/februrary" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/March"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        >
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.3"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:background="@color/colorbackgroundmonthname">>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginRight="10dp"
+                                android:gravity="center"
+                                android:text="MAR"
+                                android:textColor="#ffffff"
+                                android:textSize="30sp"/>
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/imageView4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.1"
+                            android:contentDescription="@string/calender_image"
+                            android:scaleType="fitXY"
+                            android:adjustViewBounds="true"
+                            app:srcCompat="@drawable/march2"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/SecondQuarter"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/SecondQuarterName"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:paddingBottom="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:contentDescription="@string/season_text"
+                            android:text="Second Quarter"
+                            android:textSize="30sp"
+                            android:textColor="#ffcc0000" />
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="1dp"
+                            android:background="@android:color/holo_red_dark"></View>
+
+
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:id="@+id/April"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.3"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:background="@color/colorbackgroundmonthname">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginRight="10dp"
+                                android:gravity="center"
+                                android:text="APR"
+                                android:textSize="30sp"
+                                android:textColor="#ffffff"/>
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/imageView5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.1"
+                            android:contentDescription="@string/calender_image"
+                            android:scaleType="fitXY"
+                            android:adjustViewBounds="true"
+                            app:srcCompat="@drawable/april2" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/may"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingBottom="20dp"
+                        android:paddingTop="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.3"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:background="@color/colorbackgroundmonthname">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginRight="10dp"
+                                android:gravity="center"
+                                android:text="MAY"
+                                android:textColor="#ffffff"
+                                android:textSize="30sp"/>
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/imageView6"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.1"
+                            android:contentDescription="@string/calender_image"
+                            android:scaleType="fitXY"
+                            android:adjustViewBounds="true"
+                            app:srcCompat="@drawable/may2" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</android.support.constraint.ConstraintLayout>
+
